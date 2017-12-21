@@ -1,19 +1,19 @@
 <?php
 	
 	// The URL of the service document
-	$testurl = "http://client.swordapp.org/client/servicedocument";
+	$testurl = "http://repository.kaust.edu.sa/kaust/sword/servicedocument";
 	
 	// The user (if required)
-	$testuser = "sword-user";
+	$testuser = "repository@kaust.edu.sa";
 	
 	// The password of the user (if required)
-	$testpw = "sword-user";
+	$testpw = "kaustrepository1";
 	
 	// The on-behalf-of user (if required)
-	//$testobo = "user@swordapp.com";
+	$testobo = "daryl.grenz@kaust.edu.sa";
 
 	// The URL of the example deposit collection
-	$testdepositurl = "http://client.swordapp.org/client/deposit/sword-user";
+	$testdepositurl = "http://repository.kaust.edu.sa/kaust/sword/deposit/10754/324603";
 
 	// The test file to deposit
 	$testfile = "test-files/sword-article.zip";
@@ -21,7 +21,7 @@
 	// The content type of the test file
 	$testcontenttype = "application/zip";
 
-	// The packaing format of the test fifle
+	// The packaging format of the test file
 	$testformat = "http://purl.org/net/sword-types/METSDSpaceSIP";
 	
 	require("swordappclient.php");
